@@ -49,7 +49,6 @@ resource "aws_instance" "web" {
   tags {
     Identity = "amazic-panda"
     blah     = "yada"
-    blah2    = "yada"
     Name     = "web ${count.index+1}"
   }
 }
